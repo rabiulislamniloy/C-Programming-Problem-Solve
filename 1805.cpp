@@ -1,9 +1,12 @@
 #include<stdio.h>
+
 int main()
 {
-  char n1,n2,n3;
-  scanf("%c%c%c",&n1,&n2,&n3);
-    printf("A = %c,B = %c,C = %c\n",n1,n2,n3);
-return 0;
+    int a,b,c,m,n;
+    scanf("%d%d",&a,&b);
+  m=(b*(b+1)/2);
+  c=a-1;
+  n=m-(c*(c+1)/2);
+  printf("%d\n",n);
+ return 0;
 }
-
