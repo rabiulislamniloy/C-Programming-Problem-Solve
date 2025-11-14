@@ -6,30 +6,41 @@ int main() {
 
     scanf("%d %d %d", &a, &b, &c);
     
-    if (a <= b && a <= c) {
+    if (a <= b && a <= c) 
+    {
         min = a;
-        if (b <= c) {
+        if (b <= c) 
+        {
             mid = b;
             max = c;
-        } else {
+        } else 
+        {
             mid = c;
             max = b;
         }
-    } else if (b <= a && b <= c) {
+    } else if (b <= a && b <= c) 
+    {
         min = b;
-        if (a <= c) {
+        if (a <= c)
+         {
             mid = a;
             max = c;
-        } else {
+        } 
+        else 
+        {
             mid = c;
             max = a;
         }
-    } else {
+    } else
+     {
         min = c;
-        if (a <= b) {
+        if (a <= b)
+    {
             mid = a;
             max = b;
-        } else {
+        } 
+        else 
+        {
             mid = b;
             max = a;
         }
